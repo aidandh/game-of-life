@@ -1,0 +1,23 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+
+.gridRow {
+    display: flex;
+}
+
+.cell {
+    width: 2em;
+    height: 2em;
+    border: 1px solid black;
+    background-color: white;
+    margin-right: -1px;
+    margin-bottom: -1px;
+}
+
+.cell.alive {
+    background-color: black;
+}
